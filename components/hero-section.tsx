@@ -4,26 +4,22 @@ import { Phone, MessageCircle, Calendar, Clock, MapPin, CheckCircle } from "luci
 
 export function HeroSection() {
   return (
-    <section className="pt-5 relative h-screen max-h-[800px] bg-gradient-to-b flex items-center from-secondary to-background ">
+    <section className="pt-8 relative h-screen max-h-[800px] bg-gradient-to-b flex items-center from-secondary to-background ">
       <div className="container mx-auto px-4 py-8 lg:py-16 justify-evenly ">
         <div className=" flex flex-col lg:flex-row items-center justify-evenly gap-8 lg:gap-16">
           {/* Content */}
           <div className=" w-fit max-w-[760px] text-center lg:text-left order-2 lg:order-1">
-            <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
+            {/* <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
               <CheckCircle className="h-4 w-4" />
               <span>Trusted Healthcare Provider</span>
-            </div>
+            </div> */}
             
             <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-foreground leading-[1.05] mb-4">
               <span className="text-balance">
                 EKZ Pain and Regenerative Medical Center
               </span>
 
-              <br />
-
-              <span className="text-2xl md:text-3xl lg:text-4xl text-teal-900 font-semibold">
-                by Dr. Edmund Kyle Causing
-              </span>
+             
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground mb-6 max-w-xl mx-auto lg:mx-0 text-pretty">
@@ -49,10 +45,10 @@ export function HeroSection() {
             </div>
 
             {/* Tags */}
-            <div className="flex flex-wrap justify-center lg:justify-start gap-2 mb-8">
+            {/* <div className="flex flex-wrap justify-center lg:justify-start gap-2 mb-8">
               <span className="bg-accent/20 text-accent-foreground px-3 py-1 rounded-full text-sm font-medium">Walk-ins Welcome</span>
               <span className="bg-accent/20 text-accent-foreground px-3 py-1 rounded-full text-sm font-medium">Same-Day Consultations</span>
-            </div>
+            </div> */}
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
