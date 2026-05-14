@@ -14,8 +14,16 @@ export function HeroSection() {
               <span>Trusted Healthcare Provider</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-4">
-              <span className="text-balance">Dr. Causing</span>
+            <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-foreground leading-[1.05] mb-4">
+              <span className="text-balance">
+                EKZ Pain and Regenerative Medical Center
+              </span>
+
+              <br />
+
+              <span className="text-2xl md:text-3xl lg:text-4xl text-teal-900 font-semibold">
+                by Dr. Edmund Kyle Causing
+              </span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground mb-6 max-w-xl mx-auto lg:mx-0 text-pretty">

@@ -25,7 +25,7 @@ const specializations = [
   {
     icon: Activity,
     title: "Ultrasound-guided Pain & Regenerative Interventions",
-    description: "Management of chronic conditions like diabetes, hypertension, and more"
+    description: "Advanced, minimally invasive procedures designed to precisely target the source of pain and promote healing. Guided by real-time ultrasound imaging, these interventions improve accuracy, safety, efficiency, and treatment effectiveness for both acute and chronic pain conditions."
   }
 ]
 
