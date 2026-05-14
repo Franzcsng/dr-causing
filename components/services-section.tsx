@@ -22,13 +22,13 @@ const specializations = [
     icon: Bone,
     title: "Neuromusculoskeletal Diagnostics",
     description: "Advanced diagnostic modalities designed to identify the root cause of pain, weakness, numbness, and movement dysfunction. Through real-time imaging and functional assessment, these evaluations provide valuable insights that guide precise and effective treatment planning.",
-    image: '/image2.jpg'
+    image: '/image3.jpg'
   },
   {
     icon: Activity,
     title: "Ultrasound-guided Pain & Regenerative Interventions",
     description: "Advanced, minimally invasive procedures designed to precisely target the source of pain and promote healing. Guided by real-time ultrasound imaging, these interventions improve accuracy, safety, efficiency, and treatment effectiveness for both acute and chronic pain conditions.",
-    image: '/image3.jpg'
+    image: '/image2.jpg'
   }
 ]
 
