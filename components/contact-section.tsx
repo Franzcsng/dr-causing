@@ -112,7 +112,7 @@ export function ContactSection() {
           <div className="space-y-6">
             <div className="w-full h-80 lg:h-full min-h-[400px] rounded-2xl overflow-hidden border border-border/50">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3920.6903463323874!2d122.958677!3d10.681125999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDQwJzUyLjEiTiAxMjLCsDU3JzMxLjIiRQ!5e0!3m2!1sen!2sph!4v1778763651188!5m2!1sen!2sph"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d490.08693876296036!2d122.9587692!3d10.6807259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed109c21349a1%3A0x49dd04ab94677db6!2sSt.Mary&#39;s%20Monastery%2C%2020th%20St.%20Extension%2C%20Bacolod%2C%20Negros%20Occidental!5e0!3m2!1sen!2sph!4v1778770387808!5m2!1sen!2sph"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
