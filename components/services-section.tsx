@@ -62,11 +62,11 @@ const specializations = [
 
 export function ServicesSection() {
   return (
-    <section id="services" className=" py-16 lg:py-14 bg-background">
+    <section id="services" className=" py-16 lg:py-16 bg-background">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-primary font-medium tracking-wide uppercase text-sm">What We Offer</span>
+          <span className="text-primary font-medium tracking-wide uppercase text-sm"></span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
             {/* Services & Specializations */}
             Specializations

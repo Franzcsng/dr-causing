@@ -2,12 +2,12 @@ import { Award, GraduationCap, Heart, Users } from "lucide-react"
 
 export function AboutSection() {
   const credentials = [
-    "Doctor of Medicine, University of the Philippines",
-    "Residency in Family Medicine, Philippine General Hospital",
-    "Board Certified in Family Medicine",
-    "Member, Philippine Medical Association",
-    "Member, Philippine Academy of Family Physicians",
-    "15+ Years of Clinical Experience"
+    "Fellow - Neuromusculoskeletal Sonology (FNMSK)",
+    "International Olympic Committee Sports Medicine Physician",
+    "Diplomate & Fellow of the Philippine Academy of Rehabilitation Medicine",
+    "Registered in Musculoskeletal (RMSK) sonography by the Alliance for Physician Certification & Advancement (APCA)",
+    "Member - Philippine Academy of Family Physicians",
+    "Pain & Regenerative Medicine",
   ]
 
   return (
@@ -18,7 +18,7 @@ export function AboutSection() {
           <div className="text-center mb-12">
             <span className="text-primary font-medium tracking-wide uppercase text-sm">About the Doctor</span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
-              Dedicated to Your Health & Wellness
+              DR. EDMUND KYLE CAUSING
             </h2>
             <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
           </div>
@@ -28,13 +28,11 @@ export function AboutSection() {
             {/* Bio */}
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed">
-                Dr. Maria Santos has been serving the Metro Manila community for over 15 years, providing comprehensive primary care for patients of all ages. Her practice focuses on building long-term relationships with patients and their families to deliver personalized, preventive healthcare.
-              </p>
+               Dr. Edmund Kyle Zachary Causing is a licensed medical doctor specializing in pain management, regenerative medicine, sports medicine, and rehabilitation medicine. Through continuous advanced training and a strong focus on precision-based care, he provides modern diagnostic and ultrasound-guided treatment solutions for acute and chronic pain conditions.
+               </p>
+        
               <p className="text-muted-foreground leading-relaxed">
-                With a patient-centered approach, Dr. Santos takes the time to listen to each patient&apos;s concerns and works collaboratively to develop treatment plans that fit their lifestyle and health goals. She believes in empowering patients through education and preventive care.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Whether you need routine check-ups, management of chronic conditions, or minor procedures, Dr. Santos and her team are committed to providing compassionate, high-quality care in a welcoming environment.
+                Committed to excellence, safety, and patient-centered care, the clinic was established to deliver specialized, evidence-based treatments that help patients recover faster, move better, and live with less pain.
               </p>
             </div>
 
@@ -56,17 +54,17 @@ export function AboutSection() {
           </div>
 
           {/* Values */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
             <div className="text-center p-6 rounded-xl bg-secondary/30">
               <Heart className="h-10 w-10 text-primary mx-auto mb-4" />
               <h4 className="font-semibold text-foreground mb-2">Compassionate Care</h4>
               <p className="text-sm text-muted-foreground">Every patient is treated with empathy and respect</p>
             </div>
-            <div className="text-center p-6 rounded-xl bg-secondary/30">
+            {/* <div className="text-center p-6 rounded-xl bg-secondary/30">
               <Users className="h-10 w-10 text-primary mx-auto mb-4" />
               <h4 className="font-semibold text-foreground mb-2">Family-Focused</h4>
               <p className="text-sm text-muted-foreground">Care for all ages, from children to seniors</p>
-            </div>
+            </div> */}
             <div className="text-center p-6 rounded-xl bg-secondary/30">
               <Award className="h-10 w-10 text-primary mx-auto mb-4" />
               <h4 className="font-semibold text-foreground mb-2">Quality First</h4>

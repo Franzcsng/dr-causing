@@ -27,7 +27,7 @@ export function HeroSection() {
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground mb-6 max-w-xl mx-auto lg:mx-0 text-pretty">
-              Providing compassionate, patient-centered healthcare for individuals and families in Bacolod City.
+              A specialty outpatient medical clinic focused on the diagnosis, treatment, and management of acute and chronic pain conditions through evidence-based, minimally invasive, and regenerative medical approaches.
             </p>
 
             {/* Quick Info */}

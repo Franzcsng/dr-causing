@@ -42,9 +42,9 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              {/* <li>
+              <li>
                 <a href="#about" className="text-background/70 hover:text-background transition-colors">About Dr. Causing</a>
-              </li> */}
+              </li>
               <li>
                 <a href="#services" className="text-background/70 hover:text-background transition-colors">Services</a>
               </li>
