@@ -15,17 +15,20 @@ const specializations = [
   {
     icon: Stethoscope,
     title: "Specialist Assessment",
-    description: "The path to recovery starts with finding out exactly what the problem is. Treatment is only as effective as the diagnosis. Discover the best options to help you recover and move better."
+    description: "The path to recovery starts with finding out exactly what the problem is. Treatment is only as effective as the diagnosis. Discover the best options to help you recover and move better.",
+    image: '/image1.jpg'
   },
   {
     icon: Bone,
     title: "Neuromusculoskeletal Diagnostics",
-    description: "Advanced diagnostic modalities designed to identify the root cause of pain, weakness, numbness, and movement dysfunction. Through real-time imaging and functional assessment, these evaluations provide valuable insights that guide precise and effective treatment planning."
+    description: "Advanced diagnostic modalities designed to identify the root cause of pain, weakness, numbness, and movement dysfunction. Through real-time imaging and functional assessment, these evaluations provide valuable insights that guide precise and effective treatment planning.",
+    image: '/image2.jpg'
   },
   {
     icon: Activity,
     title: "Ultrasound-guided Pain & Regenerative Interventions",
-    description: "Advanced, minimally invasive procedures designed to precisely target the source of pain and promote healing. Guided by real-time ultrasound imaging, these interventions improve accuracy, safety, efficiency, and treatment effectiveness for both acute and chronic pain conditions."
+    description: "Advanced, minimally invasive procedures designed to precisely target the source of pain and promote healing. Guided by real-time ultrasound imaging, these interventions improve accuracy, safety, efficiency, and treatment effectiveness for both acute and chronic pain conditions.",
+    image: '/image3.jpg'
   }
 ]
 
@@ -91,6 +94,14 @@ export function ServicesSection() {
                     {item.description}
                   </CardDescription>
                 </CardContent>
+
+                <div className="mt-auto mx-auto w-[90%] aspect-video overflow-hidden rounded-xl">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </Card>
             ))}
           </div>
