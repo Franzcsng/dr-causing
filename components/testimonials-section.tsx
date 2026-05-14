@@ -7,16 +7,25 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
 
 const testimonials = [
   {
-    quote: "Dr. Causing is warm and approachable. Each visit feels comfortable, and he takes time to explain everything clearly"
+    quote: "Dr. Causing is warm and approachable. Each visit feels comfortable, and he takes time to explain everything clearly",
+    name: '',
+    context: '⭐⭐⭐⭐⭐'
+    
   },
   {
     quote: "What stood out during my visit was how welcoming and reassuring the consultation felt. Dr. Causing was patient clear in his explanations, making the overall experience very positive.",
+     name: '',
+    context: '⭐⭐⭐⭐⭐'
   },
   {
     quote: "One of the best doctors I've encountered. 😊",
+     name: '',
+    context: '⭐⭐⭐⭐⭐'
   },
   {
     quote: "I appreciate how Dr. Causing listens to all my concerns without rushing. He genuinely cares about his patients' well-being.",
+     name: '',
+    context: '⭐⭐⭐⭐⭐'
   },
 ]
 
